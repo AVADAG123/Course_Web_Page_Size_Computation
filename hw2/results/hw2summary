@@ -1,0 +1,27 @@
+hw2summary
+
+name: ChengyangGong
+CSE 374 Homework2
+date: 2021-10-21
+
+commands:
+1. 
+./getcourses courselist courses-index.html
+2.
+./run-analysis dataout courselist
+3.
+Rscript scatterplot.R
+# all the sql files and associated resource files lie at the same directory               
+
+A brief statement of the scatter plot:
+The average course byte-size of the 300 and 400 level is larger than that of the 500 level, which means that 
+students with lower level and ages require more instructions and more user-friendly guidelines compared to those
+with higher level and ages. This is reasonable because students of higher degree and level tend to be more experienced 
+and more capable to tackle tough problems and details on their own.
+
+A brief description of R:
+The first line indicates the mean(i.e. average) value of all the second column elements in courselist file, that is the average byte-size of all the 
+web pages downloaded successfully
+The second line indicates which jpeg device is opened(here is the null device)
+The third line means shutting down device 1(i.e. null device) successfully
+
